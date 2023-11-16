@@ -41,7 +41,7 @@ footer .f-item.recent-post li .info {
     padding-right: 20px;
 }
 footer .footer-bottom.bg-light p {
-    text-align: end;
+    /* text-align: end; */
 }
 .breadcrumb-area .breadcrumb li::after {
     left: unset;
@@ -82,6 +82,9 @@ footer .footer-bottom.bg-light p {
     padding-left: unset;
     padding-right: 20px;
 }
+.fas.fa-angle-right{
+    transform: rotate(180deg);
+}
 @media (max-width: 1023px){
 nav.navbar.bootsnav ul.nav ul.dropdown-menu ul.dropdown-menu {
     left: unset;
@@ -92,4 +95,37 @@ nav.navbar.bootsnav ul.nav ul.dropdown-menu ul.dropdown-menu {
     .breadcrumb-area h1{
         text-align: center;
     }
+    }
+
+
+    @media (min-width: 768px){
+.navbar-header {
+    float: left;
+}
+    }
+    @media (min-width: 768px){
+.navbar-nav>li {
+    float: left;
+}
+.department-tabs .tab-content .opening-info h4::after {
+    left: unset;
+    right: 0;
+}
+.department-tabs .tab-content .opening-info h4::before {
+   left: unset;
+    right: 45px;
+}
+    }
+    @media (min-width: 992px){
+    .col-md-6.col-6.address-info.text-left{
+        float: left;
+    }
+    .footer-bottom.bg-light .col-md-6.text-right.link{
+        text-align: left;
+        }
+    }
+    @media (max-width:767px){
+        .department-tabs .tab-content .opening-info li {
+            text-align: right;
+          }
     }

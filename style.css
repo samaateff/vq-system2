@@ -6050,3 +6050,10 @@ iframe {
   margin-bottom: unset !important;
 }
 
+
+@media (max-width:767px){
+  .department-tabs .tab-content .opening-info li {
+      text-align: left;
+    }
+}
+

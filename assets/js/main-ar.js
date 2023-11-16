@@ -296,6 +296,7 @@
             loop: false,
             nav: true,
             dots: false,
+            rtl:true,
             items: 1,
             navText: [
                 "<i class='fa fa-angle-left'></i>",
